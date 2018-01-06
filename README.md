@@ -40,7 +40,7 @@ Donations will be put back in tutorials (but please don't feel like it's necessa
 ## [KeyboardViewController](https://github.com/BFMarks/Wingboard/blob/master/WingBoard/WingBoardKeyboard/KeyboardViewController.swift)
 
 
-![alt text](https://github.com/BFMarks/Wingboard/blob/master/screenshot.jpg)
+![alt text](https://github.com/BFMarks/Wingboard/blob/master/screenshot2.jpg)
 
 ### Swift
 
