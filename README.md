@@ -111,24 +111,22 @@ This function sets the number of cells in the Collection View.   It is typically
         }
     
 ```
-This function displays the data in each cell.  You must have a separate class to contain the cell data, which in this project is ```TableViewCell.swift```.
 
-Lastly, we have the function that plays the video:
+Lastly, we have to repopulate the data in the tableview with each new array from the collectionView.
 
 ```swift
- private  func playVideo(video: String) {
-        guard let path = Bundle.main.path(forResource: video, ofType:"m4v") else {
-            debugPrint("video.m4v not found")
-            return
-        }
-        let player = AVPlayer(url: URL(fileURLWithPath: path))
-        let playerController = AVPlayerViewController()
-        playerController.player = player
-        present(playerController, animated: true) {
-            player.play()
-        }
+
+    func clearTable() {
+        self.newArray.removeAll()
+        self.tableView.reloadData()
+        return
+    }
+    
+    func clearHeader() {
+        self.newHeader.removeAll()
+        return
     }
 ```
-The videos in the array are then called with this function: ```playVideo(video: movArray[indexPath.row])```, where movArray is the array holding all of the videos.  Typically, you would get all of the video data from the server but this is simply an example app.
+There is a server that is not included in this project but it's in Node.
 
-This is has been a brief tutorial on how to setup a table View in iOS Swift.  Please feel free to ask questions on how the app is build and I will add tutorial points later if needed.
+This is has been a brief tutorial on how to setup a keyboard extension in iOS Swift.  Please feel free to ask questions on how the app is build and I will add tutorial points later if needed.
