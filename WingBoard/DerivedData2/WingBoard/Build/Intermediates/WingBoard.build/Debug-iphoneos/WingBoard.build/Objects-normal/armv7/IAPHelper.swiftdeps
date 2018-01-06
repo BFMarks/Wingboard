@@ -1,0 +1,1073 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProductIdentifier"
+- "ProductsRequestCompletionHandler"
+- "IAPHelper"
+provides-nominal:
+- "C9WingBoard9IAPHelper"
+provides-member:
+- ["C9WingBoard9IAPHelper", ""]
+- ["C9WingBoard9IAPHelper", "requestProducts"]
+- ["C9WingBoard9IAPHelper", "buyProduct"]
+- ["C9WingBoard9IAPHelper", "isProductPurchased"]
+- ["C9WingBoard9IAPHelper", "canMakePayments"]
+- ["C9WingBoard9IAPHelper", "restorePurchases"]
+provides-dynamic-lookup:
+- "canMakePayments"
+- "productsRequest"
+- "request"
+- "paymentQueue"
+- "buyProduct"
+- "IAPHelperPurchaseNotification"
+- "requestProducts"
+- "isProductPurchased"
+- "restorePurchases"
+depends-top-level:
+- "SKPaymentQueue"
+- "Set"
+- "SKProductsRequest"
+- "IAPHelper"
+- !private "print"
+- "String"
+- "ProductIdentifier"
+- !private "SKErrorCode"
+- !private "!="
+- !private "NSUserDefaults"
+- "NSError"
+- !private "SKPayment"
+- "SKRequest"
+- "SKProductsRequestDelegate"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "NSNotificationCenter"
+- "SKPaymentTransactionObserver"
+- "Bool"
+- "SKPaymentTransaction"
+- "NSObject"
+- "SKProductsResponse"
+- "ProductsRequestCompletionHandler"
+- !private "BooleanLiteralType"
+- "SKProduct"
+depends-member:
+- !private ["Ps9AnyObject", "IAPHelper"]
+- ["Ps9AnyObject", "IAPHelperPurchaseNotification"]
+- !private ["Ps9AnyObject", "NSNotificationCenter"]
+- !private ["Ps9AnyObject", "NSUserDefaults"]
+- !private ["Ps9AnyObject", "SKErrorCode"]
+- !private ["Ps9AnyObject", "SKPayment"]
+- !private ["Ps9AnyObject", "SKPaymentQueue"]
+- !private ["Ps9AnyObject", "SKProductsRequest"]
+- ["Ps9AnyObject", "Set"]
+- !private ["Ps9AnyObject", "addPayment"]
+- !private ["Ps9AnyObject", "addTransactionObserver"]
+- !private ["Ps9AnyObject", "boolForKey"]
+- ["Ps9AnyObject", "buyProduct"]
+- ["Ps9AnyObject", "canMakePayments"]
+- !private ["Ps9AnyObject", "cancel"]
+- ["Ps9AnyObject", "clearRequestAndHandler"]
+- !private ["Ps9AnyObject", "code"]
+- ["Ps9AnyObject", "completeTransaction"]
+- !private ["Ps9AnyObject", "defaultCenter"]
+- !private ["Ps9AnyObject", "defaultQueue"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "deliverPurchaseNotificatioForIdentifier"]
+- !private ["Ps9AnyObject", "error"]
+- ["Ps9AnyObject", "failedTransaction"]
+- !private ["Ps9AnyObject", "finishTransaction"]
+- !private ["Ps9AnyObject", "floatValue"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isProductPurchased"]
+- !private ["Ps9AnyObject", "localizedDescription"]
+- !private ["Ps9AnyObject", "localizedTitle"]
+- !private ["Ps9AnyObject", "originalTransaction"]
+- !private ["Ps9AnyObject", "payment"]
+- ["Ps9AnyObject", "paymentQueue"]
+- ["Ps9AnyObject", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["Ps9AnyObject", "postNotificationName"]
+- !private ["Ps9AnyObject", "price"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "productIdentifier"]
+- ["Ps9AnyObject", "productIdentifiers"]
+- !private ["Ps9AnyObject", "products"]
+- ["Ps9AnyObject", "productsRequest"]
+- ["Ps9AnyObject", "productsRequestCompletionHandler"]
+- ["Ps9AnyObject", "purchasedProductIdentifiers"]
+- ["Ps9AnyObject", "request"]
+- ["Ps9AnyObject", "requestDidFinish"]
+- ["Ps9AnyObject", "requestProducts"]
+- !private ["Ps9AnyObject", "restoreCompletedTransactions"]
+- ["Ps9AnyObject", "restorePurchases"]
+- ["Ps9AnyObject", "restoreTransaction"]
+- !private ["Ps9AnyObject", "setBool"]
+- !private ["Ps9AnyObject", "standardUserDefaults"]
+- !private ["Ps9AnyObject", "start"]
+- !private ["Ps9AnyObject", "synchronize"]
+- !private ["Ps9AnyObject", "transactionState"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "contains"]
+- ["Ps23ArrayLiteralConvertible", "init"]
+- !private ["Ps23ArrayLiteralConvertible", "insert"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "floatValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IAPHelper"]
+- ["Ps11CVarArgType", "IAPHelperPurchaseNotification"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "NSNotificationCenter"]
+- !private ["Ps11CVarArgType", "NSUserDefaults"]
+- !private ["Ps11CVarArgType", "SKErrorCode"]
+- !private ["Ps11CVarArgType", "SKPayment"]
+- !private ["Ps11CVarArgType", "SKPaymentQueue"]
+- !private ["Ps11CVarArgType", "SKProductsRequest"]
+- ["Ps11CVarArgType", "Set"]
+- !private ["Ps11CVarArgType", "addPayment"]
+- !private ["Ps11CVarArgType", "addTransactionObserver"]
+- !private ["Ps11CVarArgType", "boolForKey"]
+- ["Ps11CVarArgType", "buyProduct"]
+- ["Ps11CVarArgType", "canMakePayments"]
+- !private ["Ps11CVarArgType", "cancel"]
+- ["Ps11CVarArgType", "clearRequestAndHandler"]
+- !private ["Ps11CVarArgType", "code"]
+- ["Ps11CVarArgType", "completeTransaction"]
+- !private ["Ps11CVarArgType", "defaultCenter"]
+- !private ["Ps11CVarArgType", "defaultQueue"]
+- !private ["Ps11CVarArgType", "delegate"]
+- ["Ps11CVarArgType", "deliverPurchaseNotificatioForIdentifier"]
+- !private ["Ps11CVarArgType", "error"]
+- ["Ps11CVarArgType", "failedTransaction"]
+- !private ["Ps11CVarArgType", "finishTransaction"]
+- !private ["Ps11CVarArgType", "floatValue"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "isProductPurchased"]
+- !private ["Ps11CVarArgType", "localizedDescription"]
+- !private ["Ps11CVarArgType", "localizedTitle"]
+- !private ["Ps11CVarArgType", "originalTransaction"]
+- !private ["Ps11CVarArgType", "payment"]
+- ["Ps11CVarArgType", "paymentQueue"]
+- ["Ps11CVarArgType", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["Ps11CVarArgType", "postNotificationName"]
+- !private ["Ps11CVarArgType", "price"]
+- !private ["Ps11CVarArgType", "print"]
+- !private ["Ps11CVarArgType", "productIdentifier"]
+- ["Ps11CVarArgType", "productIdentifiers"]
+- !private ["Ps11CVarArgType", "products"]
+- ["Ps11CVarArgType", "productsRequest"]
+- ["Ps11CVarArgType", "productsRequestCompletionHandler"]
+- ["Ps11CVarArgType", "purchasedProductIdentifiers"]
+- ["Ps11CVarArgType", "request"]
+- ["Ps11CVarArgType", "requestDidFinish"]
+- ["Ps11CVarArgType", "requestProducts"]
+- !private ["Ps11CVarArgType", "restoreCompletedTransactions"]
+- ["Ps11CVarArgType", "restorePurchases"]
+- ["Ps11CVarArgType", "restoreTransaction"]
+- !private ["Ps11CVarArgType", "setBool"]
+- !private ["Ps11CVarArgType", "standardUserDefaults"]
+- !private ["Ps11CVarArgType", "start"]
+- !private ["Ps11CVarArgType", "synchronize"]
+- !private ["Ps11CVarArgType", "transactionState"]
+- ["Ps11CVarArgType", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "contains"]
+- ["Ps14CollectionType", "init"]
+- !private ["Ps14CollectionType", "insert"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "IAPHelper"]
+- ["Ps28CustomDebugStringConvertible", "IAPHelperPurchaseNotification"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNotificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUserDefaults"]
+- !private ["Ps28CustomDebugStringConvertible", "SKErrorCode"]
+- !private ["Ps28CustomDebugStringConvertible", "SKPayment"]
+- !private ["Ps28CustomDebugStringConvertible", "SKPaymentQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "SKProductsRequest"]
+- ["Ps28CustomDebugStringConvertible", "Set"]
+- !private ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "addPayment"]
+- !private ["Ps28CustomDebugStringConvertible", "addTransactionObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "boolForKey"]
+- ["Ps28CustomDebugStringConvertible", "buyProduct"]
+- ["Ps28CustomDebugStringConvertible", "canMakePayments"]
+- !private ["Ps28CustomDebugStringConvertible", "cancel"]
+- ["Ps28CustomDebugStringConvertible", "clearRequestAndHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "code"]
+- ["Ps28CustomDebugStringConvertible", "completeTransaction"]
+- !private ["Ps28CustomDebugStringConvertible", "contains"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "deliverPurchaseNotificatioForIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "error"]
+- ["Ps28CustomDebugStringConvertible", "failedTransaction"]
+- !private ["Ps28CustomDebugStringConvertible", "finishTransaction"]
+- !private ["Ps28CustomDebugStringConvertible", "floatValue"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "insert"]
+- ["Ps28CustomDebugStringConvertible", "isProductPurchased"]
+- !private ["Ps28CustomDebugStringConvertible", "localizedDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "localizedTitle"]
+- !private ["Ps28CustomDebugStringConvertible", "originalTransaction"]
+- !private ["Ps28CustomDebugStringConvertible", "payment"]
+- ["Ps28CustomDebugStringConvertible", "paymentQueue"]
+- ["Ps28CustomDebugStringConvertible", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["Ps28CustomDebugStringConvertible", "postNotificationName"]
+- !private ["Ps28CustomDebugStringConvertible", "price"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "productIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "productIdentifiers"]
+- !private ["Ps28CustomDebugStringConvertible", "products"]
+- ["Ps28CustomDebugStringConvertible", "productsRequest"]
+- ["Ps28CustomDebugStringConvertible", "productsRequestCompletionHandler"]
+- ["Ps28CustomDebugStringConvertible", "purchasedProductIdentifiers"]
+- ["Ps28CustomDebugStringConvertible", "request"]
+- ["Ps28CustomDebugStringConvertible", "requestDidFinish"]
+- ["Ps28CustomDebugStringConvertible", "requestProducts"]
+- !private ["Ps28CustomDebugStringConvertible", "restoreCompletedTransactions"]
+- ["Ps28CustomDebugStringConvertible", "restorePurchases"]
+- ["Ps28CustomDebugStringConvertible", "restoreTransaction"]
+- !private ["Ps28CustomDebugStringConvertible", "setBool"]
+- !private ["Ps28CustomDebugStringConvertible", "standardUserDefaults"]
+- !private ["Ps28CustomDebugStringConvertible", "start"]
+- !private ["Ps28CustomDebugStringConvertible", "synchronize"]
+- !private ["Ps28CustomDebugStringConvertible", "transactionState"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "IAPHelper"]
+- ["Ps23CustomStringConvertible", "IAPHelperPurchaseNotification"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "NSNotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "NSUserDefaults"]
+- !private ["Ps23CustomStringConvertible", "SKErrorCode"]
+- !private ["Ps23CustomStringConvertible", "SKPayment"]
+- !private ["Ps23CustomStringConvertible", "SKPaymentQueue"]
+- !private ["Ps23CustomStringConvertible", "SKProductsRequest"]
+- ["Ps23CustomStringConvertible", "Set"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addPayment"]
+- !private ["Ps23CustomStringConvertible", "addTransactionObserver"]
+- !private ["Ps23CustomStringConvertible", "boolForKey"]
+- ["Ps23CustomStringConvertible", "buyProduct"]
+- ["Ps23CustomStringConvertible", "canMakePayments"]
+- !private ["Ps23CustomStringConvertible", "cancel"]
+- ["Ps23CustomStringConvertible", "clearRequestAndHandler"]
+- !private ["Ps23CustomStringConvertible", "code"]
+- ["Ps23CustomStringConvertible", "completeTransaction"]
+- !private ["Ps23CustomStringConvertible", "contains"]
+- !private ["Ps23CustomStringConvertible", "defaultCenter"]
+- !private ["Ps23CustomStringConvertible", "defaultQueue"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "deliverPurchaseNotificatioForIdentifier"]
+- !private ["Ps23CustomStringConvertible", "error"]
+- ["Ps23CustomStringConvertible", "failedTransaction"]
+- !private ["Ps23CustomStringConvertible", "finishTransaction"]
+- !private ["Ps23CustomStringConvertible", "floatValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "insert"]
+- ["Ps23CustomStringConvertible", "isProductPurchased"]
+- !private ["Ps23CustomStringConvertible", "localizedDescription"]
+- !private ["Ps23CustomStringConvertible", "localizedTitle"]
+- !private ["Ps23CustomStringConvertible", "originalTransaction"]
+- !private ["Ps23CustomStringConvertible", "payment"]
+- ["Ps23CustomStringConvertible", "paymentQueue"]
+- ["Ps23CustomStringConvertible", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["Ps23CustomStringConvertible", "postNotificationName"]
+- !private ["Ps23CustomStringConvertible", "price"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "productIdentifier"]
+- ["Ps23CustomStringConvertible", "productIdentifiers"]
+- !private ["Ps23CustomStringConvertible", "products"]
+- ["Ps23CustomStringConvertible", "productsRequest"]
+- ["Ps23CustomStringConvertible", "productsRequestCompletionHandler"]
+- ["Ps23CustomStringConvertible", "purchasedProductIdentifiers"]
+- ["Ps23CustomStringConvertible", "request"]
+- ["Ps23CustomStringConvertible", "requestDidFinish"]
+- ["Ps23CustomStringConvertible", "requestProducts"]
+- !private ["Ps23CustomStringConvertible", "restoreCompletedTransactions"]
+- ["Ps23CustomStringConvertible", "restorePurchases"]
+- ["Ps23CustomStringConvertible", "restoreTransaction"]
+- !private ["Ps23CustomStringConvertible", "setBool"]
+- !private ["Ps23CustomStringConvertible", "standardUserDefaults"]
+- !private ["Ps23CustomStringConvertible", "start"]
+- !private ["Ps23CustomStringConvertible", "synchronize"]
+- !private ["Ps23CustomStringConvertible", "transactionState"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- ["Ps9Equatable", "Deferred"]
+- !private ["Ps9Equatable", "Distance"]
+- ["Ps9Equatable", "Failed"]
+- !private ["Ps9Equatable", "Generator"]
+- !private ["Ps9Equatable", "IAPHelper"]
+- ["Ps9Equatable", "IAPHelperPurchaseNotification"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "NSNotificationCenter"]
+- !private ["Ps9Equatable", "NSUserDefaults"]
+- !private ["Ps9Equatable", "PaymentCancelled"]
+- ["Ps9Equatable", "Purchased"]
+- ["Ps9Equatable", "Purchasing"]
+- ["Ps9Equatable", "Restored"]
+- !private ["Ps9Equatable", "SKErrorCode"]
+- !private ["Ps9Equatable", "SKPayment"]
+- !private ["Ps9Equatable", "SKPaymentQueue"]
+- !private ["Ps9Equatable", "SKProductsRequest"]
+- ["Ps9Equatable", "Set"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addPayment"]
+- !private ["Ps9Equatable", "addTransactionObserver"]
+- !private ["Ps9Equatable", "boolForKey"]
+- ["Ps9Equatable", "buyProduct"]
+- ["Ps9Equatable", "canMakePayments"]
+- !private ["Ps9Equatable", "cancel"]
+- ["Ps9Equatable", "clearRequestAndHandler"]
+- !private ["Ps9Equatable", "code"]
+- ["Ps9Equatable", "completeTransaction"]
+- !private ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "defaultCenter"]
+- !private ["Ps9Equatable", "defaultQueue"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "deliverPurchaseNotificatioForIdentifier"]
+- !private ["Ps9Equatable", "error"]
+- ["Ps9Equatable", "failedTransaction"]
+- !private ["Ps9Equatable", "finishTransaction"]
+- !private ["Ps9Equatable", "floatValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "insert"]
+- ["Ps9Equatable", "isProductPurchased"]
+- !private ["Ps9Equatable", "localizedDescription"]
+- !private ["Ps9Equatable", "localizedTitle"]
+- !private ["Ps9Equatable", "originalTransaction"]
+- !private ["Ps9Equatable", "payment"]
+- ["Ps9Equatable", "paymentQueue"]
+- ["Ps9Equatable", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["Ps9Equatable", "postNotificationName"]
+- !private ["Ps9Equatable", "price"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "productIdentifier"]
+- ["Ps9Equatable", "productIdentifiers"]
+- !private ["Ps9Equatable", "products"]
+- ["Ps9Equatable", "productsRequest"]
+- ["Ps9Equatable", "productsRequestCompletionHandler"]
+- ["Ps9Equatable", "purchasedProductIdentifiers"]
+- !private ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "request"]
+- ["Ps9Equatable", "requestDidFinish"]
+- ["Ps9Equatable", "requestProducts"]
+- !private ["Ps9Equatable", "restoreCompletedTransactions"]
+- ["Ps9Equatable", "restorePurchases"]
+- ["Ps9Equatable", "restoreTransaction"]
+- !private ["Ps9Equatable", "setBool"]
+- !private ["Ps9Equatable", "standardUserDefaults"]
+- !private ["Ps9Equatable", "start"]
+- !private ["Ps9Equatable", "synchronize"]
+- !private ["Ps9Equatable", "transactionState"]
+- ["Ps9Equatable", ""]
+- !private ["Ps9ErrorType", "code"]
+- !private ["Ps9ErrorType", "localizedDescription"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps23FloatLiteralConvertible", "floatValue"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- ["Ps8Hashable", "Deferred"]
+- !private ["Ps8Hashable", "Distance"]
+- ["Ps8Hashable", "Failed"]
+- !private ["Ps8Hashable", "Generator"]
+- !private ["Ps8Hashable", "IAPHelper"]
+- ["Ps8Hashable", "IAPHelperPurchaseNotification"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "NSNotificationCenter"]
+- !private ["Ps8Hashable", "NSUserDefaults"]
+- !private ["Ps8Hashable", "PaymentCancelled"]
+- ["Ps8Hashable", "Purchased"]
+- ["Ps8Hashable", "Purchasing"]
+- ["Ps8Hashable", "Restored"]
+- !private ["Ps8Hashable", "SKErrorCode"]
+- !private ["Ps8Hashable", "SKPayment"]
+- !private ["Ps8Hashable", "SKPaymentQueue"]
+- !private ["Ps8Hashable", "SKProductsRequest"]
+- ["Ps8Hashable", "Set"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addPayment"]
+- !private ["Ps8Hashable", "addTransactionObserver"]
+- !private ["Ps8Hashable", "boolForKey"]
+- ["Ps8Hashable", "buyProduct"]
+- ["Ps8Hashable", "canMakePayments"]
+- !private ["Ps8Hashable", "cancel"]
+- ["Ps8Hashable", "clearRequestAndHandler"]
+- !private ["Ps8Hashable", "code"]
+- ["Ps8Hashable", "completeTransaction"]
+- !private ["Ps8Hashable", "contains"]
+- !private ["Ps8Hashable", "defaultCenter"]
+- !private ["Ps8Hashable", "defaultQueue"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "deliverPurchaseNotificatioForIdentifier"]
+- !private ["Ps8Hashable", "error"]
+- ["Ps8Hashable", "failedTransaction"]
+- !private ["Ps8Hashable", "finishTransaction"]
+- !private ["Ps8Hashable", "floatValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "insert"]
+- ["Ps8Hashable", "isProductPurchased"]
+- !private ["Ps8Hashable", "localizedDescription"]
+- !private ["Ps8Hashable", "localizedTitle"]
+- !private ["Ps8Hashable", "originalTransaction"]
+- !private ["Ps8Hashable", "payment"]
+- ["Ps8Hashable", "paymentQueue"]
+- ["Ps8Hashable", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["Ps8Hashable", "postNotificationName"]
+- !private ["Ps8Hashable", "price"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "productIdentifier"]
+- ["Ps8Hashable", "productIdentifiers"]
+- !private ["Ps8Hashable", "products"]
+- ["Ps8Hashable", "productsRequest"]
+- ["Ps8Hashable", "productsRequestCompletionHandler"]
+- ["Ps8Hashable", "purchasedProductIdentifiers"]
+- !private ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", "request"]
+- ["Ps8Hashable", "requestDidFinish"]
+- ["Ps8Hashable", "requestProducts"]
+- !private ["Ps8Hashable", "restoreCompletedTransactions"]
+- ["Ps8Hashable", "restorePurchases"]
+- ["Ps8Hashable", "restoreTransaction"]
+- !private ["Ps8Hashable", "setBool"]
+- !private ["Ps8Hashable", "standardUserDefaults"]
+- !private ["Ps8Hashable", "start"]
+- !private ["Ps8Hashable", "synchronize"]
+- !private ["Ps8Hashable", "transactionState"]
+- ["Ps8Hashable", ""]
+- ["C9WingBoard9IAPHelper", "Bool"]
+- !private ["C9WingBoard9IAPHelper", "IAPHelper"]
+- ["C9WingBoard9IAPHelper", "IAPHelperPurchaseNotification"]
+- ["C9WingBoard9IAPHelper", "NSError"]
+- !private ["C9WingBoard9IAPHelper", "NSNotificationCenter"]
+- !private ["C9WingBoard9IAPHelper", "NSUserDefaults"]
+- ["C9WingBoard9IAPHelper", "ProductIdentifier"]
+- ["C9WingBoard9IAPHelper", "ProductsRequestCompletionHandler"]
+- !private ["C9WingBoard9IAPHelper", "SKErrorCode"]
+- !private ["C9WingBoard9IAPHelper", "SKPayment"]
+- ["C9WingBoard9IAPHelper", "SKPaymentQueue"]
+- ["C9WingBoard9IAPHelper", "SKPaymentTransaction"]
+- ["C9WingBoard9IAPHelper", "SKProduct"]
+- ["C9WingBoard9IAPHelper", "SKProductsRequest"]
+- ["C9WingBoard9IAPHelper", "SKProductsResponse"]
+- ["C9WingBoard9IAPHelper", "SKRequest"]
+- ["C9WingBoard9IAPHelper", "Set"]
+- !private ["C9WingBoard9IAPHelper", "String"]
+- ["C9WingBoard9IAPHelper", "buyProduct"]
+- ["C9WingBoard9IAPHelper", "canMakePayments"]
+- !private ["C9WingBoard9IAPHelper", "clearRequestAndHandler"]
+- !private ["C9WingBoard9IAPHelper", "completeTransaction"]
+- ["C9WingBoard9IAPHelper", "deinit"]
+- !private ["C9WingBoard9IAPHelper", "deliverPurchaseNotificatioForIdentifier"]
+- !private ["C9WingBoard9IAPHelper", "failedTransaction"]
+- ["C9WingBoard9IAPHelper", "init"]
+- ["C9WingBoard9IAPHelper", "isProductPurchased"]
+- ["C9WingBoard9IAPHelper", "paymentQueue"]
+- ["C9WingBoard9IAPHelper", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["C9WingBoard9IAPHelper", "print"]
+- !private ["C9WingBoard9IAPHelper", "productIdentifiers"]
+- ["C9WingBoard9IAPHelper", "productsRequest"]
+- !private ["C9WingBoard9IAPHelper", "productsRequestCompletionHandler"]
+- !private ["C9WingBoard9IAPHelper", "purchasedProductIdentifiers"]
+- ["C9WingBoard9IAPHelper", "request"]
+- ["C9WingBoard9IAPHelper", "requestDidFinish"]
+- ["C9WingBoard9IAPHelper", "requestProducts"]
+- ["C9WingBoard9IAPHelper", "restorePurchases"]
+- !private ["C9WingBoard9IAPHelper", "restoreTransaction"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "contains"]
+- ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "insert"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "floatValue"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["PSo8NSCoding", "code"]
+- !private ["PSo8NSCoding", "floatValue"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "localizedDescription"]
+- !private ["PSo9NSCopying", "code"]
+- !private ["PSo9NSCopying", "floatValue"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "localizedDescription"]
+- !private ["PSo9NSCopying", "productIdentifier"]
+- !private ["CSo15NSDecimalNumber", "floatValue"]
+- !private ["CSo7NSError", "code"]
+- !private ["CSo7NSError", "localizedDescription"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "productIdentifier"]
+- !private ["CSo20NSNotificationCenter", "defaultCenter"]
+- !private ["CSo20NSNotificationCenter", "postNotificationName"]
+- !private ["CSo8NSNumber", "floatValue"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "IAPHelper"]
+- ["CSo8NSObject", "IAPHelperPurchaseNotification"]
+- ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSNotificationCenter"]
+- !private ["CSo8NSObject", "NSUserDefaults"]
+- ["CSo8NSObject", "ProductIdentifier"]
+- ["CSo8NSObject", "ProductsRequestCompletionHandler"]
+- !private ["CSo8NSObject", "SKErrorCode"]
+- !private ["CSo8NSObject", "SKPayment"]
+- ["CSo8NSObject", "SKPaymentQueue"]
+- ["CSo8NSObject", "SKPaymentTransaction"]
+- ["CSo8NSObject", "SKProduct"]
+- ["CSo8NSObject", "SKProductsRequest"]
+- ["CSo8NSObject", "SKProductsResponse"]
+- ["CSo8NSObject", "SKRequest"]
+- ["CSo8NSObject", "Set"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "addPayment"]
+- !private ["CSo8NSObject", "addTransactionObserver"]
+- !private ["CSo8NSObject", "boolForKey"]
+- ["CSo8NSObject", "buyProduct"]
+- ["CSo8NSObject", "canMakePayments"]
+- !private ["CSo8NSObject", "cancel"]
+- ["CSo8NSObject", "clearRequestAndHandler"]
+- !private ["CSo8NSObject", "code"]
+- ["CSo8NSObject", "completeTransaction"]
+- !private ["CSo8NSObject", "defaultCenter"]
+- !private ["CSo8NSObject", "defaultQueue"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "deliverPurchaseNotificatioForIdentifier"]
+- !private ["CSo8NSObject", "error"]
+- ["CSo8NSObject", "failedTransaction"]
+- !private ["CSo8NSObject", "finishTransaction"]
+- !private ["CSo8NSObject", "floatValue"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "isProductPurchased"]
+- !private ["CSo8NSObject", "localizedDescription"]
+- !private ["CSo8NSObject", "localizedTitle"]
+- !private ["CSo8NSObject", "originalTransaction"]
+- !private ["CSo8NSObject", "payment"]
+- ["CSo8NSObject", "paymentQueue"]
+- ["CSo8NSObject", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["CSo8NSObject", "postNotificationName"]
+- !private ["CSo8NSObject", "price"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "productIdentifier"]
+- ["CSo8NSObject", "productIdentifiers"]
+- !private ["CSo8NSObject", "products"]
+- ["CSo8NSObject", "productsRequest"]
+- ["CSo8NSObject", "productsRequestCompletionHandler"]
+- ["CSo8NSObject", "purchasedProductIdentifiers"]
+- ["CSo8NSObject", "request"]
+- ["CSo8NSObject", "requestDidFinish"]
+- ["CSo8NSObject", "requestProducts"]
+- !private ["CSo8NSObject", "restoreCompletedTransactions"]
+- ["CSo8NSObject", "restorePurchases"]
+- ["CSo8NSObject", "restoreTransaction"]
+- !private ["CSo8NSObject", "setBool"]
+- !private ["CSo8NSObject", "standardUserDefaults"]
+- !private ["CSo8NSObject", "start"]
+- !private ["CSo8NSObject", "synchronize"]
+- !private ["CSo8NSObject", "transactionState"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "IAPHelper"]
+- ["PSo16NSObjectProtocol", "IAPHelperPurchaseNotification"]
+- !private ["PSo16NSObjectProtocol", "NSNotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "NSUserDefaults"]
+- !private ["PSo16NSObjectProtocol", "SKErrorCode"]
+- !private ["PSo16NSObjectProtocol", "SKPayment"]
+- !private ["PSo16NSObjectProtocol", "SKPaymentQueue"]
+- !private ["PSo16NSObjectProtocol", "SKProductsRequest"]
+- ["PSo16NSObjectProtocol", "Set"]
+- !private ["PSo16NSObjectProtocol", "addPayment"]
+- !private ["PSo16NSObjectProtocol", "addTransactionObserver"]
+- !private ["PSo16NSObjectProtocol", "boolForKey"]
+- ["PSo16NSObjectProtocol", "buyProduct"]
+- ["PSo16NSObjectProtocol", "canMakePayments"]
+- !private ["PSo16NSObjectProtocol", "cancel"]
+- ["PSo16NSObjectProtocol", "clearRequestAndHandler"]
+- !private ["PSo16NSObjectProtocol", "code"]
+- ["PSo16NSObjectProtocol", "completeTransaction"]
+- !private ["PSo16NSObjectProtocol", "defaultCenter"]
+- !private ["PSo16NSObjectProtocol", "defaultQueue"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "deliverPurchaseNotificatioForIdentifier"]
+- !private ["PSo16NSObjectProtocol", "error"]
+- ["PSo16NSObjectProtocol", "failedTransaction"]
+- !private ["PSo16NSObjectProtocol", "finishTransaction"]
+- !private ["PSo16NSObjectProtocol", "floatValue"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isProductPurchased"]
+- !private ["PSo16NSObjectProtocol", "localizedDescription"]
+- !private ["PSo16NSObjectProtocol", "localizedTitle"]
+- !private ["PSo16NSObjectProtocol", "originalTransaction"]
+- !private ["PSo16NSObjectProtocol", "payment"]
+- ["PSo16NSObjectProtocol", "paymentQueue"]
+- ["PSo16NSObjectProtocol", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["PSo16NSObjectProtocol", "postNotificationName"]
+- !private ["PSo16NSObjectProtocol", "price"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "productIdentifier"]
+- ["PSo16NSObjectProtocol", "productIdentifiers"]
+- !private ["PSo16NSObjectProtocol", "products"]
+- ["PSo16NSObjectProtocol", "productsRequest"]
+- ["PSo16NSObjectProtocol", "productsRequestCompletionHandler"]
+- ["PSo16NSObjectProtocol", "purchasedProductIdentifiers"]
+- ["PSo16NSObjectProtocol", "request"]
+- ["PSo16NSObjectProtocol", "requestDidFinish"]
+- ["PSo16NSObjectProtocol", "requestProducts"]
+- !private ["PSo16NSObjectProtocol", "restoreCompletedTransactions"]
+- ["PSo16NSObjectProtocol", "restorePurchases"]
+- ["PSo16NSObjectProtocol", "restoreTransaction"]
+- !private ["PSo16NSObjectProtocol", "setBool"]
+- !private ["PSo16NSObjectProtocol", "standardUserDefaults"]
+- !private ["PSo16NSObjectProtocol", "start"]
+- !private ["PSo16NSObjectProtocol", "synchronize"]
+- !private ["PSo16NSObjectProtocol", "transactionState"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "code"]
+- !private ["PSo14NSSecureCoding", "floatValue"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "localizedDescription"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo14NSUserDefaults", "boolForKey"]
+- !private ["CSo14NSUserDefaults", "setBool"]
+- !private ["CSo14NSUserDefaults", "standardUserDefaults"]
+- !private ["CSo14NSUserDefaults", "synchronize"]
+- !private ["CSo7NSValue", "floatValue"]
+- !private ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Sq", "Some"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- ["Ps16RawRepresentable", "Deferred"]
+- ["Ps16RawRepresentable", "Failed"]
+- !private ["Ps16RawRepresentable", "PaymentCancelled"]
+- ["Ps16RawRepresentable", "Purchased"]
+- ["Ps16RawRepresentable", "Purchasing"]
+- ["Ps16RawRepresentable", "Restored"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["OSC11SKErrorCode", "PaymentCancelled"]
+- !private ["OSC11SKErrorCode", "rawValue"]
+- !private ["CSo9SKPayment", "init"]
+- !private ["CSo9SKPayment", "productIdentifier"]
+- !private ["CSo14SKPaymentQueue", "addPayment"]
+- !private ["CSo14SKPaymentQueue", "addTransactionObserver"]
+- !private ["CSo14SKPaymentQueue", "canMakePayments"]
+- !private ["CSo14SKPaymentQueue", "defaultQueue"]
+- !private ["CSo14SKPaymentQueue", "finishTransaction"]
+- !private ["CSo14SKPaymentQueue", "restoreCompletedTransactions"]
+- !private ["CSo20SKPaymentTransaction", "error"]
+- !private ["CSo20SKPaymentTransaction", "originalTransaction"]
+- !private ["CSo20SKPaymentTransaction", "payment"]
+- !private ["CSo20SKPaymentTransaction", "transactionState"]
+- !private ["PSo28SKPaymentTransactionObserver", "IAPHelper"]
+- !private ["PSo28SKPaymentTransactionObserver", "IAPHelperPurchaseNotification"]
+- !private ["PSo28SKPaymentTransactionObserver", "NSNotificationCenter"]
+- !private ["PSo28SKPaymentTransactionObserver", "NSUserDefaults"]
+- !private ["PSo28SKPaymentTransactionObserver", "SKErrorCode"]
+- !private ["PSo28SKPaymentTransactionObserver", "SKPayment"]
+- !private ["PSo28SKPaymentTransactionObserver", "SKPaymentQueue"]
+- !private ["PSo28SKPaymentTransactionObserver", "SKProductsRequest"]
+- ["PSo28SKPaymentTransactionObserver", "Set"]
+- !private ["PSo28SKPaymentTransactionObserver", "clearRequestAndHandler"]
+- !private ["PSo28SKPaymentTransactionObserver", "completeTransaction"]
+- !private ["PSo28SKPaymentTransactionObserver", "deliverPurchaseNotificatioForIdentifier"]
+- !private ["PSo28SKPaymentTransactionObserver", "failedTransaction"]
+- ["PSo28SKPaymentTransactionObserver", "paymentQueue"]
+- ["PSo28SKPaymentTransactionObserver", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["PSo28SKPaymentTransactionObserver", "print"]
+- !private ["PSo28SKPaymentTransactionObserver", "productIdentifiers"]
+- ["PSo28SKPaymentTransactionObserver", "productsRequest"]
+- !private ["PSo28SKPaymentTransactionObserver", "productsRequestCompletionHandler"]
+- !private ["PSo28SKPaymentTransactionObserver", "purchasedProductIdentifiers"]
+- ["PSo28SKPaymentTransactionObserver", "request"]
+- ["PSo28SKPaymentTransactionObserver", "requestDidFinish"]
+- !private ["PSo28SKPaymentTransactionObserver", "restoreTransaction"]
+- ["PSo28SKPaymentTransactionObserver", ""]
+- ["OSC25SKPaymentTransactionState", "Deferred"]
+- ["OSC25SKPaymentTransactionState", "Failed"]
+- ["OSC25SKPaymentTransactionState", "Purchased"]
+- ["OSC25SKPaymentTransactionState", "Purchasing"]
+- ["OSC25SKPaymentTransactionState", "Restored"]
+- !private ["CSo9SKProduct", "localizedTitle"]
+- !private ["CSo9SKProduct", "price"]
+- !private ["CSo9SKProduct", "productIdentifier"]
+- !private ["CSo17SKProductsRequest", "cancel"]
+- !private ["CSo17SKProductsRequest", "delegate"]
+- !private ["CSo17SKProductsRequest", "init"]
+- !private ["CSo17SKProductsRequest", "start"]
+- !private ["PSo25SKProductsRequestDelegate", "IAPHelper"]
+- !private ["PSo25SKProductsRequestDelegate", "IAPHelperPurchaseNotification"]
+- !private ["PSo25SKProductsRequestDelegate", "NSNotificationCenter"]
+- !private ["PSo25SKProductsRequestDelegate", "NSUserDefaults"]
+- !private ["PSo25SKProductsRequestDelegate", "SKErrorCode"]
+- !private ["PSo25SKProductsRequestDelegate", "SKPayment"]
+- !private ["PSo25SKProductsRequestDelegate", "SKPaymentQueue"]
+- !private ["PSo25SKProductsRequestDelegate", "SKProductsRequest"]
+- ["PSo25SKProductsRequestDelegate", "Set"]
+- !private ["PSo25SKProductsRequestDelegate", "clearRequestAndHandler"]
+- !private ["PSo25SKProductsRequestDelegate", "completeTransaction"]
+- !private ["PSo25SKProductsRequestDelegate", "deliverPurchaseNotificatioForIdentifier"]
+- !private ["PSo25SKProductsRequestDelegate", "failedTransaction"]
+- ["PSo25SKProductsRequestDelegate", "paymentQueue"]
+- ["PSo25SKProductsRequestDelegate", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["PSo25SKProductsRequestDelegate", "print"]
+- !private ["PSo25SKProductsRequestDelegate", "productIdentifiers"]
+- ["PSo25SKProductsRequestDelegate", "productsRequest"]
+- !private ["PSo25SKProductsRequestDelegate", "productsRequestCompletionHandler"]
+- !private ["PSo25SKProductsRequestDelegate", "purchasedProductIdentifiers"]
+- ["PSo25SKProductsRequestDelegate", "request"]
+- ["PSo25SKProductsRequestDelegate", "requestDidFinish"]
+- !private ["PSo25SKProductsRequestDelegate", "restoreTransaction"]
+- ["PSo25SKProductsRequestDelegate", ""]
+- !private ["CSo18SKProductsResponse", "products"]
+- !private ["CSo9SKRequest", "cancel"]
+- !private ["CSo9SKRequest", "delegate"]
+- !private ["CSo9SKRequest", "init"]
+- !private ["CSo9SKRequest", "start"]
+- !private ["PSo17SKRequestDelegate", "IAPHelper"]
+- !private ["PSo17SKRequestDelegate", "IAPHelperPurchaseNotification"]
+- !private ["PSo17SKRequestDelegate", "NSNotificationCenter"]
+- !private ["PSo17SKRequestDelegate", "NSUserDefaults"]
+- !private ["PSo17SKRequestDelegate", "SKErrorCode"]
+- !private ["PSo17SKRequestDelegate", "SKPayment"]
+- !private ["PSo17SKRequestDelegate", "SKPaymentQueue"]
+- !private ["PSo17SKRequestDelegate", "SKProductsRequest"]
+- ["PSo17SKRequestDelegate", "Set"]
+- !private ["PSo17SKRequestDelegate", "clearRequestAndHandler"]
+- !private ["PSo17SKRequestDelegate", "completeTransaction"]
+- !private ["PSo17SKRequestDelegate", "deliverPurchaseNotificatioForIdentifier"]
+- !private ["PSo17SKRequestDelegate", "failedTransaction"]
+- ["PSo17SKRequestDelegate", "paymentQueue"]
+- ["PSo17SKRequestDelegate", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["PSo17SKRequestDelegate", "print"]
+- !private ["PSo17SKRequestDelegate", "productIdentifiers"]
+- ["PSo17SKRequestDelegate", "productsRequest"]
+- !private ["PSo17SKRequestDelegate", "productsRequestCompletionHandler"]
+- !private ["PSo17SKRequestDelegate", "purchasedProductIdentifiers"]
+- ["PSo17SKRequestDelegate", "request"]
+- ["PSo17SKRequestDelegate", "requestDidFinish"]
+- !private ["PSo17SKRequestDelegate", "restoreTransaction"]
+- ["PSo17SKRequestDelegate", ""]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "contains"]
+- ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "insert"]
+- !private ["Vs3Set", "Generator"]
+- !private ["Vs3Set", "contains"]
+- ["Vs3Set", "init"]
+- !private ["Vs3Set", "insert"]
+- !private ["Vs12SetGenerator", "Element"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["P9Alamofire20URLStringConvertible", "init"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "contains"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "insert"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "contains"]
+- ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "insert"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps9ErrorType"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- "C9WingBoard9IAPHelper"
+- "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo15NSDecimalNumber"
+- !private "CSo7NSError"
+- !private "PSo16NSMutableCopying"
+- !private "CSo20NSNotificationCenter"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo14NSUserDefaults"
+- !private "CSo7NSValue"
+- !private "Ps21NilLiteralConvertible"
+- !private "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- "Ps16RawRepresentable"
+- !private "OSC11SKErrorCode"
+- !private "CSo9SKPayment"
+- !private "CSo14SKPaymentQueue"
+- !private "CSo20SKPaymentTransaction"
+- "PSo28SKPaymentTransactionObserver"
+- "OSC25SKPaymentTransactionState"
+- !private "CSo9SKProduct"
+- !private "CSo17SKProductsRequest"
+- "PSo25SKProductsRequestDelegate"
+- !private "CSo18SKProductsResponse"
+- !private "CSo9SKRequest"
+- "PSo17SKRequestDelegate"
+- "Ps12SequenceType"
+- "Vs3Set"
+- !private "Vs12SetGenerator"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs12StaticString"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "P9Alamofire20URLStringConvertible"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/UIViewController+AutomaticEvents.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/UIView+MPHelpers.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/UIImage+MPImageEffects.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/UIImage+MPAverageColor.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/UIColor+MPColor.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/UIApplication+AutomaticEvents.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/NSNotificationCenter+AutomaticEvents.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/NSInvocation+MPHelpers.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/NSData+MPBase64.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPVariant.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPValueTransformers.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPUITableViewBinding.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPUIControlBinding.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPTweakStore.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/_MPTweakBindObserver.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPTweakInlineInternal.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPTweakInline.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPTweak.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPSwizzler.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPSwizzle.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPSurveyQuestionViewController.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPSurveyQuestion.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPSurveyNavigationController.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPSurvey.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPSequenceGenerator.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPResources.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPPropertyDescription.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPObjectSerializerContext.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPObjectSerializerConfig.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPObjectSerializer.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPObjectIdentityProvider.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPObjectIdentifierProvider.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPNotificationViewController.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPNotification.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPLogger.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPFoundation.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPObjectSelector.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPEventBinding.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPEnumDescription.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPDesignerSessionCollection.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPDesignerEventBindingMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPTypeDescription.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPClassDescription.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPApplicationStateSerializer.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerTweakResponseMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerTweakRequestMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerSnapshotResponseMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerSnapshotRequestMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerDisconnectMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerDeviceInfoResponseMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerDeviceInfoRequestMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPWebSocket.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerConnection.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerClearResponseMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerClearRequestMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerChangeResponseMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerChangeRequestMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPAbstractABTestDesignerMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MixpanelExceptionHandler.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/Mixpanel.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/Mixpanel+AutomaticEvents.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/AutomaticEventsConstants.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/Mixpanel-umbrella.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Modules/module.modulemap"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm.swiftmodule"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "299ce7f8a08b2486fd9562e219ae9e54"

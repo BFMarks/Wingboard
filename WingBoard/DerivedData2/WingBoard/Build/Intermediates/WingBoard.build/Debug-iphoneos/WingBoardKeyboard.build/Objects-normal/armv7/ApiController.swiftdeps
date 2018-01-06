@@ -1,0 +1,230 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "endPoint"
+- "API"
+provides-nominal:
+- "C9WingBoard3API"
+provides-member:
+- ["C9WingBoard3API", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- "Dictionary"
+- !private "print"
+- "API"
+- !private "Alamofire"
+- "StringLiteralType"
+- "endPoint"
+- "AnyObject"
+- "NSError"
+depends-member:
+- !private ["C9WingBoard3API", "Alamofire"]
+- ["C9WingBoard3API", "AnyObject"]
+- ["C9WingBoard3API", "NSError"]
+- ["C9WingBoard3API", "String"]
+- ["C9WingBoard3API", "apiEndPoint"]
+- ["C9WingBoard3API", "apiUrl"]
+- ["C9WingBoard3API", "consumerKey"]
+- ["C9WingBoard3API", "consumerSecret"]
+- ["C9WingBoard3API", "deinit"]
+- ["C9WingBoard3API", "getOrders"]
+- ["C9WingBoard3API", "init"]
+- ["C9WingBoard3API", "makeCall"]
+- !private ["C9WingBoard3API", "print"]
+- ["C9WingBoard3API", "returnData"]
+- !private ["Ps9AnyObject", "Alamofire"]
+- ["Ps9AnyObject", "Key"]
+- ["Ps9AnyObject", "Value"]
+- !private ["Ps9AnyObject", "apiEndPoint"]
+- !private ["Ps9AnyObject", "apiUrl"]
+- !private ["Ps9AnyObject", "consumerKey"]
+- !private ["Ps9AnyObject", "consumerSecret"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "makeCall"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "responseJSON"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "deinit"]
+- ["Ps11CVarArgType", "Key"]
+- ["Ps11CVarArgType", "Value"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Vs9Character", "deinit"]
+- ["Ps14CollectionType", "Key"]
+- ["Ps14CollectionType", "Value"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Failure"]
+- ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "Success"]
+- ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "responseJSON"]
+- !private ["Ps28CustomDebugStringConvertible", "result"]
+- !private ["Ps23CustomStringConvertible", "Failure"]
+- ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "Success"]
+- ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "responseJSON"]
+- !private ["Ps23CustomStringConvertible", "result"]
+- ["Vs10Dictionary", "Key"]
+- ["Vs10Dictionary", "Value"]
+- ["Ps28DictionaryLiteralConvertible", "Key"]
+- ["Ps28DictionaryLiteralConvertible", "Value"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "GET"]
+- ["Ps9Equatable", "Key"]
+- ["Ps9Equatable", "Value"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "GET"]
+- ["Ps8Hashable", "Key"]
+- ["Ps8Hashable", "Value"]
+- !private ["Ps8Hashable", "init"]
+- ["SQ", "deinit"]
+- ["Ps9Indexable", "Key"]
+- ["Ps9Indexable", "Value"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["O9Alamofire6Method", "GET"]
+- !private ["Ps14MirrorPathType", "init"]
+- ["PSo8NSCoding", "Key"]
+- ["PSo8NSCoding", "Value"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "Key"]
+- ["PSo9NSCopying", "Value"]
+- !private ["PSo9NSCopying", "init"]
+- ["CSo12NSDictionary", "Key"]
+- ["CSo12NSDictionary", "Value"]
+- ["PSo17NSFastEnumeration", "Key"]
+- ["PSo17NSFastEnumeration", "Value"]
+- ["PSo16NSMutableCopying", "Key"]
+- ["PSo16NSMutableCopying", "Value"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Key"]
+- ["CSo8NSObject", "Value"]
+- !private ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "Key"]
+- ["PSo16NSObjectProtocol", "Value"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "Key"]
+- ["PSo14NSSecureCoding", "Value"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps16RawRepresentable", "GET"]
+- !private ["C9Alamofire7Request", "responseJSON"]
+- !private ["V9Alamofire8Response", "result"]
+- !private ["O9Alamofire6Result", "Failure"]
+- !private ["O9Alamofire6Result", "Success"]
+- ["Ps12SequenceType", "Key"]
+- ["Ps12SequenceType", "Value"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["P9Alamofire20URLStringConvertible", "deinit"]
+- !private ["P9Alamofire20URLStringConvertible", "init"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- ["Ps21_ObjectiveCBridgeable", "Key"]
+- ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps12_Reflectable", "Key"]
+- ["Ps12_Reflectable", "Value"]
+- !private ["Ps12_Reflectable", "init"]
+depends-nominal:
+- "C9WingBoard3API"
+- "Ps9AnyObject"
+- !private "Sb"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps28DictionaryLiteralConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- "Ps8Hashable"
+- "SQ"
+- "Ps9Indexable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "O9Alamofire6Method"
+- !private "Ps14MirrorPathType"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo12NSDictionary"
+- "PSo17NSFastEnumeration"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps16OutputStreamType"
+- !private "Ps16RawRepresentable"
+- !private "C9Alamofire7Request"
+- !private "V9Alamofire8Response"
+- !private "O9Alamofire6Result"
+- "Ps12SequenceType"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "P9Alamofire20URLStringConvertible"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm.swiftmodule"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel-AppExtension/Mixpanel.framework/Headers/AutomaticEventsConstants.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel-AppExtension/Mixpanel.framework/Headers/Mixpanel+AutomaticEvents.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel-AppExtension/Mixpanel.framework/Headers/MPFoundation.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel-AppExtension/Mixpanel.framework/Headers/NSData+MPBase64.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel-AppExtension/Mixpanel.framework/Headers/MPLogger.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel-AppExtension/Mixpanel.framework/Headers/Mixpanel.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel-AppExtension/Mixpanel.framework/Headers/Mixpanel-AppExtension-umbrella.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel-AppExtension/Mixpanel.framework/Modules/module.modulemap"
+interface-hash: "95652546899024e60cb90600a0423c93"

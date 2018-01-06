@@ -1,0 +1,1 @@
+ const unsigned char Pods_WingBoardKeyboardVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_WingBoardKeyboard  PROJECT:Pods-1" "\n"; const double Pods_WingBoardKeyboardVersionNumber __attribute__ ((used)) = (double)1.;

@@ -1,0 +1,486 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Intermediates/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel-AppExtension/Mixpanel.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AutomaticEventsConstants.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/AutomaticEventsConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPFoundation.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPFoundation.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPLogger.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "Mixpanel+AutomaticEvents.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/Mixpanel+AutomaticEvents.h"
+        },
+        {
+          'type': 'file',
+          'name': "Mixpanel-AppExtension-umbrella.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Target Support Files/Mixpanel-AppExtension/Mixpanel-AppExtension-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Mixpanel-Swift.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel-AppExtension/Mixpanel.framework/Headers/Mixpanel-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Mixpanel.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/Mixpanel.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSData+MPBase64.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/NSData+MPBase64.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel-AppExtension/Mixpanel.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Intermediates/Pods.build/Debug-iphoneos/Mixpanel-AppExtension.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AutomaticEventsConstants.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/AutomaticEventsConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPABTestDesignerChangeRequestMessage.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPABTestDesignerChangeRequestMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPABTestDesignerChangeResponseMessage.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPABTestDesignerChangeResponseMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPABTestDesignerClearRequestMessage.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPABTestDesignerClearRequestMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPABTestDesignerClearResponseMessage.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPABTestDesignerClearResponseMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPABTestDesignerConnection.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPABTestDesignerConnection.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPABTestDesignerDeviceInfoRequestMessage.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPABTestDesignerDeviceInfoRequestMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPABTestDesignerDeviceInfoResponseMessage.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPABTestDesignerDeviceInfoResponseMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPABTestDesignerDisconnectMessage.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPABTestDesignerDisconnectMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPABTestDesignerMessage.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPABTestDesignerMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPABTestDesignerSnapshotRequestMessage.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPABTestDesignerSnapshotRequestMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPABTestDesignerSnapshotResponseMessage.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPABTestDesignerSnapshotResponseMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPABTestDesignerTweakRequestMessage.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPABTestDesignerTweakRequestMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPABTestDesignerTweakResponseMessage.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPABTestDesignerTweakResponseMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPAbstractABTestDesignerMessage.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPAbstractABTestDesignerMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPApplicationStateSerializer.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPApplicationStateSerializer.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPClassDescription.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPClassDescription.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPDesignerEventBindingMessage.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPDesignerEventBindingMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPDesignerSessionCollection.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPDesignerSessionCollection.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPEnumDescription.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPEnumDescription.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPEventBinding.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPEventBinding.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPFoundation.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPFoundation.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPLogger.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPNotification.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPNotification.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPNotificationViewController.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPNotificationViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPObjectIdentifierProvider.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPObjectIdentifierProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPObjectIdentityProvider.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPObjectIdentityProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPObjectSelector.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPObjectSelector.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPObjectSerializer.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPObjectSerializer.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPObjectSerializerConfig.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPObjectSerializerConfig.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPObjectSerializerContext.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPObjectSerializerContext.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPPropertyDescription.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPPropertyDescription.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPResources.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPSequenceGenerator.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPSequenceGenerator.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPSurvey.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPSurvey.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPSurveyNavigationController.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPSurveyNavigationController.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPSurveyQuestion.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPSurveyQuestion.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPSurveyQuestionViewController.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPSurveyQuestionViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPSwizzle.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPSwizzle.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPSwizzler.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPSwizzler.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPTweak.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPTweak.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPTweakInline.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPTweakInline.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPTweakInlineInternal.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPTweakInlineInternal.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPTweakStore.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPTweakStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPTypeDescription.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPTypeDescription.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPUIControlBinding.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPUIControlBinding.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPUITableViewBinding.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPUITableViewBinding.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPValueTransformers.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPValueTransformers.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPVariant.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPVariant.h"
+        },
+        {
+          'type': 'file',
+          'name': "MPWebSocket.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MPWebSocket.h"
+        },
+        {
+          'type': 'file',
+          'name': "Mixpanel+AutomaticEvents.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/Mixpanel+AutomaticEvents.h"
+        },
+        {
+          'type': 'file',
+          'name': "Mixpanel-Swift.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/Mixpanel-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Mixpanel-umbrella.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Target Support Files/Mixpanel/Mixpanel-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Mixpanel.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/Mixpanel.h"
+        },
+        {
+          'type': 'file',
+          'name': "MixpanelExceptionHandler.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/MixpanelExceptionHandler.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSData+MPBase64.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/NSData+MPBase64.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSInvocation+MPHelpers.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/NSInvocation+MPHelpers.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSNotificationCenter+AutomaticEvents.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/NSNotificationCenter+AutomaticEvents.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIApplication+AutomaticEvents.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/UIApplication+AutomaticEvents.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIColor+MPColor.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/UIColor+MPColor.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+MPAverageColor.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/UIImage+MPAverageColor.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+MPImageEffects.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/UIImage+MPImageEffects.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+MPHelpers.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/UIView+MPHelpers.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIViewController+AutomaticEvents.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/UIViewController+AutomaticEvents.h"
+        },
+        {
+          'type': 'file',
+          'name': "_MPTweakBindObserver.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Mixpanel/Mixpanel/_MPTweakBindObserver.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Intermediates/Pods.build/Debug-iphoneos/Mixpanel.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Pods_WingBoard.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-WingBoard-umbrella.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Target Support Files/Pods-WingBoard/Pods-WingBoard-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_WingBoard-Swift.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Pods_WingBoard.framework/Headers/Pods_WingBoard-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Pods_WingBoard.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-WingBoard.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Pods_WingBoardKeyboard.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-WingBoardKeyboard-umbrella.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Target Support Files/Pods-WingBoardKeyboard/Pods-WingBoardKeyboard-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_WingBoardKeyboard-Swift.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Pods_WingBoardKeyboard.framework/Headers/Pods_WingBoardKeyboard-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Pods_WingBoardKeyboard.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-WingBoardKeyboard.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

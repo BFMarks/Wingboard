@@ -1,0 +1,87 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Wayfarer/WingBoard/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Wayfarer/WingBoard/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Wayfarer/WingBoard/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Wayfarer/WingBoard/Build/Intermediates/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Wayfarer/WingBoard/Build/Products/Debug-iphoneos/Pods_WingBoard.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-WingBoard-umbrella.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Target Support Files/Pods-WingBoard/Pods-WingBoard-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_WingBoard-Swift.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Wayfarer/WingBoard/Build/Products/Debug-iphoneos/Pods_WingBoard.framework/Headers/Pods_WingBoard-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Wayfarer/WingBoard/Build/Products/Debug-iphoneos/Pods_WingBoard.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Wayfarer/WingBoard/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-WingBoard.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Wayfarer/WingBoard/Build/Products/Debug-iphoneos/Pods_WingBoardKeyboard.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-WingBoardKeyboard-umbrella.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Target Support Files/Pods-WingBoardKeyboard/Pods-WingBoardKeyboard-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_WingBoardKeyboard-Swift.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Wayfarer/WingBoard/Build/Products/Debug-iphoneos/Pods_WingBoardKeyboard.framework/Headers/Pods_WingBoardKeyboard-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Wayfarer/WingBoard/Build/Products/Debug-iphoneos/Pods_WingBoardKeyboard.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Wayfarer/WingBoard/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-WingBoardKeyboard.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

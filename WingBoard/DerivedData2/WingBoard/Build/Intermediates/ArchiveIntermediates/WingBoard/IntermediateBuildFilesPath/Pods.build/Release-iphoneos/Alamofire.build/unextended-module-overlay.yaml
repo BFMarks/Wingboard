@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Intermediates/ArchiveIntermediates/WingBoard/BuildProductsPath/Release-iphoneos/Alamofire/Alamofire.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Intermediates/ArchiveIntermediates/WingBoard/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Alamofire.build/unextended-module.modulemap',
+    }]
+  }]
+}

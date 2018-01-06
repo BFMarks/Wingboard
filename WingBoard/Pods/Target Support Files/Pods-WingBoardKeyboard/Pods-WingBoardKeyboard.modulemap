@@ -1,0 +1,6 @@
+framework module Pods_WingBoardKeyboard {
+  umbrella header "Pods-WingBoardKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

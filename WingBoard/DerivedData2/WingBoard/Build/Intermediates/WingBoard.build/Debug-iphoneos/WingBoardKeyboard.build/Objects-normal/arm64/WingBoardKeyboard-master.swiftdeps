@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "075a36fc2ac490ddff4cdd7c77d363e1"
+build_time: [526508106, 134857000]
+inputs:
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/WingBoardKeyboard/TableViewCell.swift": [523576407, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/WingBoardKeyboard/KeyboardViewController.swift": [526508093, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/WingBoardKeyboard/ApiController.swift": [525316084, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/WingBoardKeyboard/DetailViewController.swift": [524884753, 0]

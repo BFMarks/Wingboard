@@ -1,0 +1,13 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "485fadb316670d236e1a6eb62a7c6c22"
+build_time: [525289231, 999273000]
+inputs:
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/WingBoardKeyboard/MasterViewController.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/WingBoard/RageProducts.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/WingBoardKeyboard/ApiController.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/WingBoardKeyboard/DetailViewController.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/WingBoard/IAPHelper.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/WingBoard/ViewController.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/WingBoardKeyboard/ProductCell.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/WingBoard/ModalSetupViewController.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/WingBoard/AppDelegate.swift": [9223372036854775807, 0]

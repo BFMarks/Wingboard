@@ -1,0 +1,21 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "806be9c9a5793ec518280af9dcff8016"
+build_time: [524000057, 474541000]
+inputs:
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Alamofire.swift": !dirty [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Download.swift": !dirty [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Error.swift": !dirty [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Manager.swift": !dirty [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/MultipartFormData.swift": !dirty [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/NetworkReachabilityManager.swift": !dirty [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Notifications.swift": !dirty [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/ParameterEncoding.swift": !dirty [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Request.swift": !dirty [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Response.swift": !dirty [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/ResponseSerialization.swift": !dirty [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Result.swift": !dirty [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/ServerTrustPolicy.swift": !dirty [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Stream.swift": !dirty [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Timeline.swift": !dirty [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Upload.swift": !dirty [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Validation.swift": !dirty [523998518, 0]

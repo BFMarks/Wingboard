@@ -1,0 +1,21 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "2d9c87b25ecbd92c31c0306e9065d8d5"
+build_time: [526073554, 609648000]
+inputs:
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Alamofire.swift": [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Download.swift": [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Error.swift": [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Manager.swift": [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/MultipartFormData.swift": [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Notifications.swift": [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/ParameterEncoding.swift": [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Request.swift": [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Response.swift": [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/ResponseSerialization.swift": [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Result.swift": [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/ServerTrustPolicy.swift": [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Stream.swift": [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Timeline.swift": [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Upload.swift": [523998518, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Validation.swift": [523998518, 0]

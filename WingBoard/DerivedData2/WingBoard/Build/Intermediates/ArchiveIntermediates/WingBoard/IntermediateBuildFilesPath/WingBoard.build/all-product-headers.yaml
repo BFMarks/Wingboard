@@ -1,0 +1,28 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Intermediates/ArchiveIntermediates/WingBoard/BuildProductsPath/Release-iphoneos/WingBoard.app/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "WingBoard-Swift.h",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Intermediates/ArchiveIntermediates/WingBoard/BuildProductsPath/Release-iphoneos/WingBoard.app/Headers/WingBoard-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Intermediates/ArchiveIntermediates/WingBoard/BuildProductsPath/Release-iphoneos/WingBoard.app/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Intermediates/ArchiveIntermediates/WingBoard/IntermediateBuildFilesPath/WingBoard.build/Release-iphoneos/WingBoard.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

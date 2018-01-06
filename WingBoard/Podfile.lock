@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.4.0)
+  - AppsFlyerFramework (4.5.9)
+  - Mixpanel (3.0.5):
+    - Mixpanel/Mixpanel (= 3.0.5)
+  - Mixpanel/Mixpanel (3.0.5)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - AppsFlyerFramework
+  - Mixpanel
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AppsFlyerFramework: 93c3eda4d73b8477641fabe6952260ee70ee1077
+  Mixpanel: ad5ec38855baa42af0de52052466ab36ee240b87
+
+PODFILE CHECKSUM: c764cd3b595121ad2a02ecf096bf0796958dbfbb
+
+COCOAPODS: 1.2.0

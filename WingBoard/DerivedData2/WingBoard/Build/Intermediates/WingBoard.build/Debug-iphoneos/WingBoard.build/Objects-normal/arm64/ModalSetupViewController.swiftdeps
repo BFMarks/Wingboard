@@ -1,0 +1,323 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ModalSetupViewController"
+provides-nominal:
+- "C9WingBoard24ModalSetupViewController"
+provides-member:
+- ["C9WingBoard24ModalSetupViewController", ""]
+provides-dynamic-lookup:
+- "goToSettings"
+- "dismissModal"
+depends-top-level:
+- !private "NSURL"
+- !private "BooleanLiteralType"
+- "AnyObject"
+- !private "UIApplication"
+- !private "Mixpanel"
+- "ModalSetupViewController"
+- "UIViewController"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "Mixpanel"]
+- !private ["Ps9AnyObject", "NSURL"]
+- !private ["Ps9AnyObject", "UIApplication"]
+- ["Ps9AnyObject", "dismissModal"]
+- !private ["Ps9AnyObject", "dismissViewControllerAnimated"]
+- ["Ps9AnyObject", "goToSettings"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "openURL"]
+- !private ["Ps9AnyObject", "sharedApplication"]
+- !private ["Ps9AnyObject", "sharedInstance"]
+- !private ["Ps9AnyObject", "track"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "Mixpanel"]
+- !private ["Ps11CVarArgType", "NSURL"]
+- !private ["Ps11CVarArgType", "UIApplication"]
+- ["Ps11CVarArgType", "dismissModal"]
+- !private ["Ps11CVarArgType", "dismissViewControllerAnimated"]
+- ["Ps11CVarArgType", "goToSettings"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "openURL"]
+- !private ["Ps11CVarArgType", "sharedApplication"]
+- !private ["Ps11CVarArgType", "sharedInstance"]
+- !private ["Ps11CVarArgType", "track"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "Mixpanel"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURL"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
+- ["Ps28CustomDebugStringConvertible", "dismissModal"]
+- !private ["Ps28CustomDebugStringConvertible", "dismissViewControllerAnimated"]
+- ["Ps28CustomDebugStringConvertible", "goToSettings"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "openURL"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- !private ["Ps28CustomDebugStringConvertible", "track"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Mixpanel"]
+- !private ["Ps23CustomStringConvertible", "NSURL"]
+- !private ["Ps23CustomStringConvertible", "UIApplication"]
+- ["Ps23CustomStringConvertible", "dismissModal"]
+- !private ["Ps23CustomStringConvertible", "dismissViewControllerAnimated"]
+- ["Ps23CustomStringConvertible", "goToSettings"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "openURL"]
+- !private ["Ps23CustomStringConvertible", "sharedApplication"]
+- !private ["Ps23CustomStringConvertible", "sharedInstance"]
+- !private ["Ps23CustomStringConvertible", "track"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Mixpanel"]
+- !private ["Ps9Equatable", "NSURL"]
+- !private ["Ps9Equatable", "UIApplication"]
+- ["Ps9Equatable", "dismissModal"]
+- !private ["Ps9Equatable", "dismissViewControllerAnimated"]
+- ["Ps9Equatable", "goToSettings"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "openURL"]
+- !private ["Ps9Equatable", "sharedApplication"]
+- !private ["Ps9Equatable", "sharedInstance"]
+- !private ["Ps9Equatable", "track"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "Mixpanel"]
+- !private ["Ps8Hashable", "NSURL"]
+- !private ["Ps8Hashable", "UIApplication"]
+- ["Ps8Hashable", "dismissModal"]
+- !private ["Ps8Hashable", "dismissViewControllerAnimated"]
+- ["Ps8Hashable", "goToSettings"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "openURL"]
+- !private ["Ps8Hashable", "sharedApplication"]
+- !private ["Ps8Hashable", "sharedInstance"]
+- !private ["Ps8Hashable", "track"]
+- ["Ps8Hashable", ""]
+- !private ["CSo8Mixpanel", "sharedInstance"]
+- !private ["CSo8Mixpanel", "track"]
+- ["C9WingBoard24ModalSetupViewController", "AnyObject"]
+- !private ["C9WingBoard24ModalSetupViewController", "Mixpanel"]
+- !private ["C9WingBoard24ModalSetupViewController", "NSURL"]
+- !private ["C9WingBoard24ModalSetupViewController", "UIApplication"]
+- ["C9WingBoard24ModalSetupViewController", "deinit"]
+- ["C9WingBoard24ModalSetupViewController", "dismissModal"]
+- !private ["C9WingBoard24ModalSetupViewController", "dismissViewControllerAnimated"]
+- ["C9WingBoard24ModalSetupViewController", "goToSettings"]
+- ["C9WingBoard24ModalSetupViewController", "init"]
+- !private ["PSo8NSCoding", "Mixpanel"]
+- !private ["PSo8NSCoding", "NSURL"]
+- !private ["PSo8NSCoding", "UIApplication"]
+- ["PSo8NSCoding", "dismissModal"]
+- !private ["PSo8NSCoding", "dismissViewControllerAnimated"]
+- ["PSo8NSCoding", "goToSettings"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "Mixpanel"]
+- !private ["PSo26NSExtensionRequestHandling", "NSURL"]
+- !private ["PSo26NSExtensionRequestHandling", "UIApplication"]
+- ["PSo26NSExtensionRequestHandling", "dismissModal"]
+- !private ["PSo26NSExtensionRequestHandling", "dismissViewControllerAnimated"]
+- ["PSo26NSExtensionRequestHandling", "goToSettings"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "Mixpanel"]
+- !private ["CSo8NSObject", "NSURL"]
+- !private ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "dismissModal"]
+- !private ["CSo8NSObject", "dismissViewControllerAnimated"]
+- ["CSo8NSObject", "goToSettings"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "openURL"]
+- !private ["CSo8NSObject", "sharedApplication"]
+- !private ["CSo8NSObject", "sharedInstance"]
+- !private ["CSo8NSObject", "track"]
+- !private ["PSo16NSObjectProtocol", "Mixpanel"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
+- ["PSo16NSObjectProtocol", "dismissModal"]
+- !private ["PSo16NSObjectProtocol", "dismissViewControllerAnimated"]
+- ["PSo16NSObjectProtocol", "goToSettings"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "openURL"]
+- !private ["PSo16NSObjectProtocol", "sharedApplication"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- !private ["PSo16NSObjectProtocol", "track"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo5NSURL", "init"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["PSo21UIAppearanceContainer", "Mixpanel"]
+- !private ["PSo21UIAppearanceContainer", "NSURL"]
+- !private ["PSo21UIAppearanceContainer", "UIApplication"]
+- ["PSo21UIAppearanceContainer", "dismissModal"]
+- !private ["PSo21UIAppearanceContainer", "dismissViewControllerAnimated"]
+- ["PSo21UIAppearanceContainer", "goToSettings"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo13UIApplication", "openURL"]
+- !private ["CSo13UIApplication", "sharedApplication"]
+- !private ["PSo18UIContentContainer", "Mixpanel"]
+- !private ["PSo18UIContentContainer", "NSURL"]
+- !private ["PSo18UIContentContainer", "UIApplication"]
+- ["PSo18UIContentContainer", "dismissModal"]
+- !private ["PSo18UIContentContainer", "dismissViewControllerAnimated"]
+- ["PSo18UIContentContainer", "goToSettings"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "Mixpanel"]
+- !private ["PSo18UIFocusEnvironment", "NSURL"]
+- !private ["PSo18UIFocusEnvironment", "UIApplication"]
+- ["PSo18UIFocusEnvironment", "dismissModal"]
+- !private ["PSo18UIFocusEnvironment", "dismissViewControllerAnimated"]
+- ["PSo18UIFocusEnvironment", "goToSettings"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "Mixpanel"]
+- !private ["CSo11UIResponder", "NSURL"]
+- !private ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "dismissModal"]
+- !private ["CSo11UIResponder", "dismissViewControllerAnimated"]
+- ["CSo11UIResponder", "goToSettings"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "openURL"]
+- !private ["CSo11UIResponder", "sharedApplication"]
+- !private ["PSo16UIStateRestoring", "Mixpanel"]
+- !private ["PSo16UIStateRestoring", "NSURL"]
+- !private ["PSo16UIStateRestoring", "UIApplication"]
+- ["PSo16UIStateRestoring", "dismissModal"]
+- !private ["PSo16UIStateRestoring", "dismissViewControllerAnimated"]
+- ["PSo16UIStateRestoring", "goToSettings"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "Mixpanel"]
+- !private ["PSo18UITraitEnvironment", "NSURL"]
+- !private ["PSo18UITraitEnvironment", "UIApplication"]
+- ["PSo18UITraitEnvironment", "dismissModal"]
+- !private ["PSo18UITraitEnvironment", "dismissViewControllerAnimated"]
+- ["PSo18UITraitEnvironment", "goToSettings"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "Mixpanel"]
+- !private ["CSo16UIViewController", "NSURL"]
+- !private ["CSo16UIViewController", "UIApplication"]
+- ["CSo16UIViewController", "dismissModal"]
+- !private ["CSo16UIViewController", "dismissViewControllerAnimated"]
+- ["CSo16UIViewController", "goToSettings"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", ""]
+- !private ["P9Alamofire20URLStringConvertible", "init"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "init"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "CSo8Mixpanel"
+- "C9WingBoard24ModalSetupViewController"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSURL"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "P9Alamofire20URLStringConvertible"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/UIViewController+AutomaticEvents.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/UIView+MPHelpers.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/UIImage+MPImageEffects.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/UIImage+MPAverageColor.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/UIColor+MPColor.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/UIApplication+AutomaticEvents.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/NSNotificationCenter+AutomaticEvents.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/NSInvocation+MPHelpers.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/NSData+MPBase64.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPVariant.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPValueTransformers.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPUITableViewBinding.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPUIControlBinding.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPTweakStore.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/_MPTweakBindObserver.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPTweakInlineInternal.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPTweakInline.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPTweak.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPSwizzler.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPSwizzle.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPSurveyQuestionViewController.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPSurveyQuestion.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPSurveyNavigationController.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPSurvey.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPSequenceGenerator.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPResources.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPPropertyDescription.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPObjectSerializerContext.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPObjectSerializerConfig.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPObjectSerializer.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPObjectIdentityProvider.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPObjectIdentifierProvider.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPNotificationViewController.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPNotification.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPLogger.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPFoundation.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPObjectSelector.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPEventBinding.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPEnumDescription.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPDesignerSessionCollection.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPDesignerEventBindingMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPTypeDescription.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPClassDescription.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPApplicationStateSerializer.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerTweakResponseMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerTweakRequestMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerSnapshotResponseMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerSnapshotRequestMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerDisconnectMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerDeviceInfoResponseMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerDeviceInfoRequestMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPWebSocket.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerConnection.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerClearResponseMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerClearRequestMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerChangeResponseMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerChangeRequestMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPABTestDesignerMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MPAbstractABTestDesignerMessage.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/MixpanelExceptionHandler.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/Mixpanel.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/Mixpanel+AutomaticEvents.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/AutomaticEventsConstants.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Headers/Mixpanel-umbrella.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Mixpanel/Mixpanel.framework/Modules/module.modulemap"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/bryanmarks/Desktop/WingBoard/WingBoard/DerivedData2/WingBoard/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "3a1f56fd3f15d2f99bbf2a87478fdd07"

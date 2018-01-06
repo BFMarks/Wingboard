@@ -1,0 +1,21 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "df39481cdc0031ff8bbfa83bd7653a18"
+build_time: [523990818, 680553000]
+inputs:
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/Pods/Alamofire/Source/Alamofire.swift": [523603124, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/Pods/Alamofire/Source/Download.swift": [523603124, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/Pods/Alamofire/Source/Error.swift": [523603124, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/Pods/Alamofire/Source/Manager.swift": [523603124, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/Pods/Alamofire/Source/MultipartFormData.swift": [523603124, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [523603124, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/Pods/Alamofire/Source/Notifications.swift": [523603124, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/Pods/Alamofire/Source/ParameterEncoding.swift": [523603124, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/Pods/Alamofire/Source/Request.swift": [523603124, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/Pods/Alamofire/Source/Response.swift": [523603124, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/Pods/Alamofire/Source/ResponseSerialization.swift": [523603124, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/Pods/Alamofire/Source/Result.swift": [523603124, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/Pods/Alamofire/Source/ServerTrustPolicy.swift": [523603124, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/Pods/Alamofire/Source/Stream.swift": [523603124, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/Pods/Alamofire/Source/Timeline.swift": [523603124, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/Pods/Alamofire/Source/Upload.swift": [523603124, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/Pods/Alamofire/Source/Validation.swift": [523603124, 0]

@@ -1,0 +1,21 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "f086a4779efa2bb0c56be704e2665b60"
+build_time: [525289124, 530383000]
+inputs:
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Alamofire.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Download.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Error.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Manager.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/MultipartFormData.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Notifications.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/ParameterEncoding.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Request.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Response.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/ResponseSerialization.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Result.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/ServerTrustPolicy.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Stream.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Timeline.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Upload.swift": [9223372036854775807, 0]
+  "/Users/bryanmarks/Desktop/WingBoard/WingBoard/Pods/Alamofire/Source/Validation.swift": [9223372036854775807, 0]

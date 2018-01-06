@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "284dc09060abaa1fed404da2b28d0a3c"
+build_time: [523997144, 890472000]
+inputs:
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/MorseCode/ViewController.swift": [499763678, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/MorseCode/AppDelegate.swift": [523471392, 0]

@@ -1,0 +1,1 @@
+ const unsigned char Pods_MorseCodeVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_MorseCode  PROJECT:Pods-1" "\n"; const double Pods_MorseCodeVersionNumber __attribute__ ((used)) = (double)1.;

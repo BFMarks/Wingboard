@@ -1,0 +1,9 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "0ff71bcc380548028d933d3cd2c7b60f"
+build_time: [523997128, 710341000]
+inputs:
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/MorseCodeKeyboard/SecondViewController.swift": [523571716, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/MorseCodeKeyboard/TableViewCell.swift": [523576407, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/MorseCodeKeyboard/ApiController.swift": [523997107, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/MorseCodeKeyboard/CustomOneCell.swift": [523576087, 0]
+  "/Users/bryanmarks/Downloads/MorseCode-master 4/MorseCodeKeyboard/KeyboardViewController.swift": [523997107, 0]
